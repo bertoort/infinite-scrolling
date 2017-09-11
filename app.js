@@ -32,7 +32,6 @@ function appendImages(event) {
   } else if (window.scrollX >= bodyWidth - limitX - 10 && xChange) {
     removeColumn(prepend)
     addColumns(prepend)
-    console.log(bodyWidth)
     window.scrollTo(defaultSize, y)
   } else if (window.scrollX === 0 && xChange) {
     prepend = true
